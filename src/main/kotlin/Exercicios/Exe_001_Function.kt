@@ -21,7 +21,8 @@ fun analisaNumeros (a:Int,b:Int,c:Int): Int{
         } else {
             return c
         }
-    } else if(b > c){
+    }
+    else if(b > c){
         if(b > c){
             return b
         } else {
