@@ -1,4 +1,3 @@
 package Visibilidade_Heranca
 
-class Cliente (var ident:Int,var sobreNome:String,var rg:String,var cpf:String) {
-}
+open class Cliente (var numeroCodigo:Long,var nome:String,var sobreNome:String)
